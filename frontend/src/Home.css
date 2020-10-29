@@ -1,0 +1,16 @@
+.Home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 80vh;
+}
+
+.Home h1 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.Home p {
+	margin: 1em;
+}

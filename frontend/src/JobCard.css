@@ -1,0 +1,10 @@
+.JobCard {
+	background-color: white;
+	margin: 10px 0px;
+	padding: 25px;
+	box-shadow: 1px 1px 1px #c2bebe;
+}
+
+.JobCard p {
+	color: black !important;
+}
