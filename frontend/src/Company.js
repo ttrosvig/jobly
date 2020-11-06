@@ -25,7 +25,8 @@ const Company = () => {
 
 	async function apply(id) {
 		let message = await JoblyApi.applyToJob(id);
-		setJobs((j) => j.map((job) => (job.id === id ? { ...job, state: message } : job)));
+		let applied = jobs.map((job) => (job.id === id ? { ...job, state: message } : job));
+		setJobs(applied);
 	}
 
 	return (
